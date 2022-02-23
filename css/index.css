@@ -1,0 +1,273 @@
+/* Body */
+
+body {
+    background-color: #00082F;
+    width: 100%;
+}
+
+/* Navigation */
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 10px;
+}
+
+div.logo {
+    width: 23%;
+    padding: 1%;
+    text-align: center;
+}
+
+header {
+    background-color: rgba(0, 8, 47, 0.5);
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+nav {
+    width: 72%;
+    padding: 1%;
+    color: white;
+    font-family: aileron, sans-serif;
+    font-weight: 500;
+    font-style: normal;
+    font-size: 16px;
+}
+
+nav ul {
+    width: 50%;
+    margin-left: auto;
+    text-align: right;
+}
+
+/* Hero Image */
+
+.heroImg {
+    height: calc(100vh - 100px);
+    width: 100%;
+    padding: 25px;
+}
+
+.content {
+    width: 500px;
+    height: 500px;
+    margin: 100px  auto 0;
+    background-image: url(../images/df_headshot.jpg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    text-align: center;
+    padding: 255px 0 0;
+}
+
+.contentItem {
+    background: linear-gradient(rgba(0, 0, 0, 0.0), rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.9)) ;
+    padding: 2px 5px 20px;
+    color: white;
+}
+
+.contentItem h2 {
+    font-family: Georgia, serif;
+    font-size: 50px;
+    color: white;
+}
+
+.contentItem p {
+    font-family: aileron, sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: 16px;
+}
+
+button {
+    background-color: #a001ce;
+    font-family: aileron, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+    color: white;
+    padding: 5px 25px;
+    cursor: pointer;
+}
+
+.headerNav {
+    background-image: url(/images/bg_gradient.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Skills */
+
+.mySkills h1 {
+    font-family: Georgia, serif;
+    color: white;
+    text-align: center;
+}
+
+.mySkills {
+    margin: 50px auto;
+}
+#dropDown {
+    margin: 0 auto;
+    padding: 0;
+    list-style-type: none;
+}
+
+.container {
+    margin: 0 auto;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: aileron, sans-serif;
+    width: 33%;
+}
+
+#toggle {
+    background-color: #040481;
+    color: white;
+    padding: 15px;
+    cursor: pointer;
+    font-weight: 600;
+    font-size: large;
+    text-align: center;
+}
+
+#dropDown li {
+    border: 1px solid darkgrey;
+    padding: 15px;
+    font-weight: 500;
+    background-color: white;
+    color: #040481;
+    text-align: center;
+}
+
+.research .fa-circle-plus {
+    width: 30px;
+    padding-left: 30px;
+    color: #a001ce;
+}
+
+.definition .fa-circle-plus {
+    width: 30px;
+    padding-left: 30px;
+    color: #00E0D1;
+}
+
+.visualDesign .fa-circle-plus {
+    width: 30px;
+    padding-left: 30px;
+    color: #C2E812;
+}
+
+.flexContainer .container {
+    margin: 0 30px;
+}
+
+.mySkills .flexContainer {
+    display: flex;
+    flex-direction: row;
+}
+
+/* Work */
+
+.myWork {
+    margin: 100px 0;
+}
+.myWork h1 {
+    font-family: Georgia, serif;
+    color: white;
+    font-size: xx-large;
+}
+
+.myWorkTitle {
+    text-align: center;
+}
+
+.workGrid p {
+    font-family: aileron, sans-serif;
+    font-weight: 200;
+    font-size: x-large;
+    color: white;
+}
+
+.workGrid {
+    margin-top: 50px;
+    width: 100%;
+    padding: 0 auto;
+    display: grid;
+    grid-gap: 100px 20px;
+    grid-template-areas:
+    "terraImg terraImg terraText"
+    "kyndliText kyndliImg kyndliImg"
+    "craImg craImg craText";
+}
+
+#terraImg {
+    grid-area: terraImg;
+    text-align: right;
+}
+
+#terraText {
+    grid-area: terraText;
+    justify-items: end;
+}
+
+#kyndliImg {
+    grid-area: kyndliImg;
+}
+
+#kyndliText {
+    grid-area: kyndliText;
+    text-align: right;
+}
+
+#craImg {
+    grid-area: craImg;
+    text-align: right;
+}
+
+#craText {
+    grid-area: craText;
+}
+
+.workGridArea {
+    justify-content: start;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #00082f;
+    padding: 10px auto;
+    text-align: left;
+    /* position: fixed;
+    bottom: 0; */
+}
+
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0 50px;
+    color: white;
+    font-family: aileron, sans-serif;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 14px;
+}
+
+footer li {
+    padding: 0 20px;
+}
+
+.footerMenu {
+    width: 23%;
+    padding: 1%;
+    text-align: left;
+}
+
+.copyright {
+    width: 72%;
+    padding: 1%;
+    text-align: right;
+}
